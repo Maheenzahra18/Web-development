@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Agency</title>
+
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* ===== HERO / NAVBAR BACKGROUND ===== */
+    .hero {
+      background-color: #D7F5DC;
+    }
+
+    /* ===== NAVBAR ===== */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 100px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #FF8345;
+    }
+
+    .menu {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu li {
+      cursor: pointer;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 12px;
+    }
+
+    .login-btn {
+      border: 1px solid #20B15A;
+      background: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .register-btn {
+      background-color: #20B15A;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    /* ===== HERO CONTENT ===== */
+    .hero-content {
+      display: flex;
+      align-items: center;
+      padding: 60px 100px;
+    }
+
+    .hero-text {
+      width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      margin-bottom: 30px;
+    }
+
+    .primary-btn {
+      background-color: #20B15A;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .hero-image {
+      width: 50%;
+      text-align: center;
+    }
+
+    .hero-image img {
+      width: 400px;
+    }
+
+    /* ===== BRAND LOGOS ===== */
+    .brand-logos {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 100px;
+      background-color: white;
+    }
+
+    .brand-logos img {
+      width: 80px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        Design<span>AGENCY</span>
+      </div>
+
+      <ul class="menu">
+        <li>Services</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+      </ul>
+
+      <div class="nav-buttons">
+        <button class="login-btn">Login</button>
+        <button class="register-btn">Register</button>
+      </div>
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+
+      <div class="hero-text">
+        <h1>
+          Increase Your <br>
+          Customers Loyalty <br>
+          and Satisfaction
+        </h1>
+
+        <p>
+          We help businesses like yours earn more customers,<br>
+          stand out from competitors, make more money
+        </p>
+
+        <button class="primary-btn">Get Started</button>
+      </div>
+
+      <div class="hero-image">
+        <img src="./image.png" alt="Laptop Image">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== LOGO SECTION ===== -->
+  <section class="brand-logos">
+    <img src="./logos_google.png" alt="Google">
+    <img src="./Trello-logo-blue 1.png" alt="Trello">
+    <img src="./logos_monday.png" alt="Monday">
+    <img src="./Notion.png" alt="Notion">
+    <img src="./Slack.png" alt="Slack">
+  </section>
+
+</body>
+</html>
