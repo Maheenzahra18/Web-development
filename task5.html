@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #2b2b2b;
+}
+
+.contact-wrapper {
+  max-width: 1200px;
+  margin: 80px auto;
+  background: #fff;
+}
+
+.contact-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  position: relative;
+}
+
+.heard {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.contact-top h1 {
+  font-size: 56px;
+  font-weight: 500;
+  position: relative;
+}
+
+.contact-top h1::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #eaff00;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.cta-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background-color: #eaff00;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.contact-bottom {
+  background: #000;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 40px;
+  padding: 60px;
+}
+
+.brand p {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.office h4,
+.extras h4 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.office p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.office a,
+.newsletter {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+.socials {
+  margin-top: 30px;
+}
+
+.socials span {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.icons a {
+  margin-right: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+    </style>
+</head>  
+<body>
+<section class="contact-wrapper">
+  <div class="contact-top">
+    <p>HEARD<br>ENOUGH →<p></p>
+    <h1>Contact us</h1>
+
+    <button class="cta-btn">→</button>
+  </div>
+
+  <div class="contact-bottom">
+    <div class="brand">
+      <p>The agency<br>for impatient<br>brands®</p>
+    </div>
+
+    <div class="office">
+      <h4>LONDON</h4>
+      <a href="#">newbusiness@wearimpero.com</a>
+      <p>
+        +44 20 7986 7751<br>
+        Unit 306, Metropolitan Wharf<br>
+        70 Wapping Wall, London E1W 3SS
+      </p>
+      <a href="#">SEE ON MAP →</a>
+    </div>
+
+    <div class="office">
+      <h4>BUENOS AIRES</h4>
+      <a href="#">buenosaires@wearimpero.com</a>
+      <p>
+        +54 11 6799 7949<br>
+        Cabildo 1458 1st floor,<br>
+        Buenos Aires
+      </p>
+      <a href="#">SEE ON MAP →</a>
+    </div>
+
+    <div class="extras">
+      <h4>WANT TO BE THE SMARTEST<br>IN YOUR OFFICE?</h4>
+      <a href="#" class="newsletter">SIGN UP FOR OUR NEWSLETTER →</a>
+
+      <div class="socials">
+        <span>FOLLOW US</span>
+        <div class="icons">
+          <a href="#">Be</a>
+          <a href="#">◎</a>
+          <a href="#">IG</a>
+          <a href="#">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
